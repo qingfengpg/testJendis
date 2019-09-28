@@ -14,6 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @RequestMapping(value = "/hi")
     public String getMsg(@RequestParam String name) {
-        return "你好啊：" + name + ", 这是jenkins自动集成测试";
+        return "你好啊：" + name + ", 这是jenkins自动集成测试===";
     }
 }
